@@ -1,0 +1,8 @@
+[package]
+name="abseil"
+version="1.14.0"
+description="Google - Abseil LTS"
+src={git="https://github.com/abseil/abseil-cpp.git", commit="2151058"}
+
+[lib]
+headers=["./"]
